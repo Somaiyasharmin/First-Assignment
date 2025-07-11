@@ -13,6 +13,22 @@
   color: #252432 
 }
 
+.section-title  {
+    padding:0;
+    margin: 0;
+    font-family: Raleway-bold;
+    font-size: 32px;
+    font-weight: 700;
+    color: #252432;
+
+}
+.section-description {
+    padding: 10px 0 20px 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #25243280;
+}
 .text-primary {
   color: #4E47FF;
 }
@@ -22,7 +38,7 @@
   color: white;
   font-weight: bold;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
 }
@@ -34,13 +50,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin: 8px 80px;
+    padding: 0 30px 5px 30px;
+    margin: 0 40px 0 40px;
 }
 
 .nav-title {
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 28px;
+    font-weight: 600;
     color: #333;
 }
 
@@ -53,4 +69,18 @@ nav {
     font-size: 48px;
     font-weight: 900;
     color: #333;
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 0 50px;
+}
+.action-text {
+    padding: 5px 190px 0 0;
+    margin: 50px 15px 130px 0;
+}
+.action-image {
+    width: 380px;
+    height: 270px;
+    border-radius: 48px;
 }
