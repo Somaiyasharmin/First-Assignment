@@ -16,7 +16,6 @@
 .section-title  {
     padding:0;
     margin: 0;
-    font-family: Raleway-bold;
     font-size: 32px;
     font-weight: 700;
     color: #252432;
@@ -30,7 +29,8 @@
     color: #25243280;
 }
 .text-primary {
-  color: #4E47FF;
+    font-weight: 800;
+    color: #4E47FF;
 }
 
 .btn-primary {
@@ -56,7 +56,7 @@ nav {
 
 .nav-title {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 800;
     color: #333;
 }
 
