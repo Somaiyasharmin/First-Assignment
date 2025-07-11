@@ -119,8 +119,82 @@ nav {
     justify-content: space-between;
     height: 170px;
     width: 820px;
-    margin: 50px 5px 80px 65px;
+    margin: 50px 5px 60px 65px;
     padding: 10px 15px 10px 15px;
-    
+}
+.users-title {
+    font-size: larger;
 
+}
+.feedback-item {
+    background-color: #f1f1f1;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.reviwer-name {
+    font-size: 10px;
+    font-weight: 300;
+    color: #333;
+    margin: 2px 0;
+    padding: 1px;
+}
+.reviwer-date {
+    font-size: 10px;
+    color: #777;
+    margin: 1px 0;
+    padding: 2px;
+}
+.reviwer-details {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    padding: 2px;
+}
+.feedback-avatar {
+    border-radius: 50%;
+}
+.reviwer-info {
+    display: flex;
+    align-items: center;
+}
+.feedback-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+}
+.feedback-description {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4f4d4d;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 1px;
+}
+.feedback-item {
+    background-color: #fdfbfb;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 3px 3px 4px 4px rgba(227, 225, 225, 0.5);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.feedback-items {
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    gap: 36px;
+}
+.users-feedback {
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #fff;
+    height: 235px;
+    width: 900px;
+    margin: 5px 55px 5px 30px;
 }
