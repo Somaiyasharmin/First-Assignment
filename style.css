@@ -73,7 +73,7 @@ nav {
 .action {
     display: flex;
     justify-content: space-between;
-    margin: 100px 50px 0 50px;
+    margin: 100px 50px 10px 50px;
 }
 .action-text {
     padding: 5px 190px 0 0;
@@ -83,4 +83,44 @@ nav {
     width: 380px;
     height: 270px;
     border-radius: 48px;
+}
+.users-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #252432;
+    padding: 14px 0 0 0;
+    margin: 0 0 18px 0;
+    text-align: center;
+}
+.number-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin: 0;
+    padding: 0;
+}
+.number-description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #25243280;
+    padding: 0;
+    margin: 0;
+}
+.user-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 70px 0 70px;
+    padding: 10px 15px 10px 15px;
+}
+.users-details {
+    background-color:#e0e2f6;
+    border-radius: 20px;
+    justify-content: space-between;
+    height: 170px;
+    width: 820px;
+    margin: 50px 5px 80px 65px;
+    padding: 10px 15px 10px 15px;
+    
+
 }
