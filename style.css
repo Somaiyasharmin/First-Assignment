@@ -57,22 +57,24 @@ nav {
 .nav-title {
     font-size: 28px;
     font-weight: 800;
-    color: #333;
 }
 
 .banner {
     text-align: center;
-    margin: 80px 200px 80px 200px;
     padding: 0 0px 80px 0px;
+    height: 410;
+    width: 100%; ;
    }
 .banner-title {
-    font-size: 48px;
-    font-weight: 900;
-    color: #333;
+    font-size: 51px;
+    font-weight: 700;
+    color: #252432;
+    margin: 100px 80px 70px 80px; ;
 }
 .action {
     display: flex;
     justify-content: space-between;
+    background-color: #f8f9ff;
     margin: 100px 50px 10px 50px;
 }
 .action-text {
@@ -128,35 +130,41 @@ nav {
 }
 .feedback-item {
     background-color: #f1f1f1;
-    padding: 60px 20px;
+    padding: 50px 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-.reviwer-name {
-    font-size: 10px;
-    font-weight: 300;
-    color: #333;
-    margin: 2px 0;
-    padding: 1px;
+.reviewer-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: #232323;
+    margin: 0;
+    padding: 0;
 }
-.reviwer-date {
-    font-size: 10px;
+.reviewer-date {
+    font-size: 11px;
     color: #777;
-    margin: 1px 0;
-    padding: 2px;
+    margin: 1px;
+    padding: 0;
 }
-.reviwer-details {
+.reviewer-details {
+    font-size: 10px;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
-    margin: 5px 0;
-    padding: 2px;
+    margin: 1px;
+    padding: 1px;
 }
 .feedback-avatar {
     border-radius: 50%;
+    margin: 2px;
+    padding: 1px;
 }
-.reviwer-info {
+.reviewer-info {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+    padding: 1px;
 }
 .feedback-title {
     font-size: 14px;
@@ -182,19 +190,95 @@ nav {
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .feedback-items {
     display: flex;
     justify-content: center;
-    margin: 20px 50px;
-    gap: 36px;
+    margin: 20px 25px;
+    gap: 38px;
 }
 .users-feedback {
     padding: 30px 10px;
     text-align: center;
-    background-color: #fff;
+    background-color: #f8f9ff;
     height: 235px;
     width: 900px;
-    margin: 5px 55px 5px 30px;
+    margin: 5px 55px 35px 30px;
+}
+.contact-title {
+    font-size: 61px;
+    font-weight: 710;
+    color: black;
+    background-color: #f8f9ff;
+    height: 140px;
+    width: 350px;
+    text-align: left;
+    margin: 70px 1px 40px 8px;
+    padding: 40px 1px 17px 6px;
+}
+.contact-content {
+    text-align: center;
+    padding: 0;
+    background-color: #f8f9ff;
+}
+.contact-section {
+    display: flex;
+    justify-content:space-between;
+    background-color: #f8f9ff;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 390px;
+    width: 810px;
+    margin: 130px 85px 100px 70px;
+    padding: 18px 6px 10px 12px;
+}
+.form-group {
+    display: flex;
+    font-size: 11px;
+    font-weight: 700;
+    color: black;
+    flex-direction: column;
+    text-align: left;
+    height: 200px;
+    width: 280px;
+    margin: 0;
+    padding: 1px;
+}
+.contact-form {
+    display: flex;
+    background-color: #f8f9ff;
+    flex-direction: column;
+    height: 350px;
+    width: 250ox;
+    margin: 3px 25ps 3px 0px;
+    padding: 2px 0 2px 0;
+    border-radius: 8px;
+
+}
+.contact-form-container {
+    background-color:#f8f9ff ;
+    padding: 0;
+    margin: 0;
+}
+.form-group input {
+    border-radius: 8px;
+    margin-bottom: 1px;
+    height: 30px ;
+    width: 280px;
+    padding: 6px 2px 6px 5px;
+    border-color: #f1f0f0;
+    border-style: solid;
+}
+.form-group textarea {
+    height: 60px;
+    width: 280px;
+    outline: none;
+    resize: none;
+    border-radius: 8px;
+    border-color: #f1f0f0;
+    border-style: solid;
+}
+.form-group ::placeholder {
+    color: #918e8e;
+    padding: 12px 5px 2px 13px;
 }
