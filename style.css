@@ -213,8 +213,8 @@ nav {
     height: 140px;
     width: 350px;
     text-align: left;
-    margin: 70px 1px 40px 8px;
-    padding: 40px 1px 17px 6px;
+    margin: 48px 1px 52px 8px;
+    padding: 30px 1px 24px 6px;
 }
 .contact-content {
     text-align: center;
@@ -227,10 +227,10 @@ nav {
     background-color: #f8f9ff;
     border-radius: 12px;
     overflow: hidden;
-    height: 390px;
+    height: 348px;
     width: 810px;
     margin: 130px 85px 100px 70px;
-    padding: 18px 6px 10px 12px;
+    padding: 18px 6px 6px 12px;
 }
 .form-group {
     display: flex;
@@ -240,7 +240,7 @@ nav {
     flex-direction: column;
     text-align: left;
     height: 200px;
-    width: 280px;
+    width: 250px;
     margin: 0;
     padding: 1px;
 }
@@ -249,7 +249,7 @@ nav {
     background-color: #f8f9ff;
     flex-direction: column;
     height: 350px;
-    width: 250ox;
+    width: 268px;
     margin: 3px 25ps 3px 0px;
     padding: 2px 0 2px 0;
     border-radius: 8px;
@@ -264,14 +264,14 @@ nav {
     border-radius: 8px;
     margin-bottom: 1px;
     height: 30px ;
-    width: 280px;
+    width: 238.5px;
     padding: 6px 2px 6px 5px;
     border-color: #f1f0f0;
     border-style: solid;
 }
 .form-group textarea {
     height: 60px;
-    width: 280px;
+    width: 244px;
     outline: none;
     resize: none;
     border-radius: 8px;
@@ -281,4 +281,45 @@ nav {
 .form-group ::placeholder {
     color: #918e8e;
     padding: 12px 5px 2px 13px;
+}
+.footer-title {
+    font-size: 70px;
+    font-weight: 820;
+    color: #4E47FF;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+.footer-description {
+    font-size: 13px;
+    font-weight: 400;
+    color: #25243280;
+    text-align: center;
+    margin: 0 285px 15px 285px;
+    padding: 1px 0 2px 0;
+}
+.footer-link {
+    font-size: 13px;
+    font-weight: 620;
+    color: #25243280;
+    text-decoration: none;
+    margin: 14px 20px 14px 20px;
+    padding: 1px 2px 1px 2px;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9ff;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
 }
